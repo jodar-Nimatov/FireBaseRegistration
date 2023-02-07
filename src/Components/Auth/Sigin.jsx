@@ -17,6 +17,8 @@ const Sigin = () => {
         }).catch((error) => {
           console.log(error)
         })
+        setEmail('')
+        setPassword('')
     }
 
 
